@@ -10,3 +10,9 @@ c# live coding
 ## References
 * [Codesapces dotnet starter kit](https://github.com/codespaces-examples/dotnetcore)
 * [Blazor Tutorial](https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/install)
+
+dotnet restore
+
+dotnet build HelloTests --no--restore
+
+dotnet test --no-build --verbosity normal
